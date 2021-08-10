@@ -1,0 +1,16 @@
+C:\Users\danie\Documents\Proyectos\clasesC#\sintaxisBasica\bin\Debug\net5.0\sintaxisBasica.exe
+C:\Users\danie\Documents\Proyectos\clasesC#\sintaxisBasica\bin\Debug\net5.0\sintaxisBasica.deps.json
+C:\Users\danie\Documents\Proyectos\clasesC#\sintaxisBasica\bin\Debug\net5.0\sintaxisBasica.runtimeconfig.json
+C:\Users\danie\Documents\Proyectos\clasesC#\sintaxisBasica\bin\Debug\net5.0\sintaxisBasica.runtimeconfig.dev.json
+C:\Users\danie\Documents\Proyectos\clasesC#\sintaxisBasica\bin\Debug\net5.0\sintaxisBasica.dll
+C:\Users\danie\Documents\Proyectos\clasesC#\sintaxisBasica\bin\Debug\net5.0\ref\sintaxisBasica.dll
+C:\Users\danie\Documents\Proyectos\clasesC#\sintaxisBasica\bin\Debug\net5.0\sintaxisBasica.pdb
+C:\Users\danie\Documents\Proyectos\clasesC#\sintaxisBasica\obj\Debug\net5.0\sintaxisBasica.csproj.AssemblyReference.cache
+C:\Users\danie\Documents\Proyectos\clasesC#\sintaxisBasica\obj\Debug\net5.0\sintaxisBasica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Documents\Proyectos\clasesC#\sintaxisBasica\obj\Debug\net5.0\sintaxisBasica.AssemblyInfoInputs.cache
+C:\Users\danie\Documents\Proyectos\clasesC#\sintaxisBasica\obj\Debug\net5.0\sintaxisBasica.AssemblyInfo.cs
+C:\Users\danie\Documents\Proyectos\clasesC#\sintaxisBasica\obj\Debug\net5.0\sintaxisBasica.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\Proyectos\clasesC#\sintaxisBasica\obj\Debug\net5.0\sintaxisBasica.dll
+C:\Users\danie\Documents\Proyectos\clasesC#\sintaxisBasica\obj\Debug\net5.0\ref\sintaxisBasica.dll
+C:\Users\danie\Documents\Proyectos\clasesC#\sintaxisBasica\obj\Debug\net5.0\sintaxisBasica.pdb
+C:\Users\danie\Documents\Proyectos\clasesC#\sintaxisBasica\obj\Debug\net5.0\sintaxisBasica.genruntimeconfig.cache

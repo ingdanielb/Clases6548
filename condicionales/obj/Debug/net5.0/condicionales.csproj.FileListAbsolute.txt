@@ -1,0 +1,16 @@
+C:\Users\danie\Documents\Proyectos\clasesC#\condicionales\bin\Debug\net5.0\condicionales.exe
+C:\Users\danie\Documents\Proyectos\clasesC#\condicionales\bin\Debug\net5.0\condicionales.deps.json
+C:\Users\danie\Documents\Proyectos\clasesC#\condicionales\bin\Debug\net5.0\condicionales.runtimeconfig.json
+C:\Users\danie\Documents\Proyectos\clasesC#\condicionales\bin\Debug\net5.0\condicionales.runtimeconfig.dev.json
+C:\Users\danie\Documents\Proyectos\clasesC#\condicionales\bin\Debug\net5.0\condicionales.dll
+C:\Users\danie\Documents\Proyectos\clasesC#\condicionales\bin\Debug\net5.0\ref\condicionales.dll
+C:\Users\danie\Documents\Proyectos\clasesC#\condicionales\bin\Debug\net5.0\condicionales.pdb
+C:\Users\danie\Documents\Proyectos\clasesC#\condicionales\obj\Debug\net5.0\condicionales.csproj.AssemblyReference.cache
+C:\Users\danie\Documents\Proyectos\clasesC#\condicionales\obj\Debug\net5.0\condicionales.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Documents\Proyectos\clasesC#\condicionales\obj\Debug\net5.0\condicionales.AssemblyInfoInputs.cache
+C:\Users\danie\Documents\Proyectos\clasesC#\condicionales\obj\Debug\net5.0\condicionales.AssemblyInfo.cs
+C:\Users\danie\Documents\Proyectos\clasesC#\condicionales\obj\Debug\net5.0\condicionales.csproj.CoreCompileInputs.cache
+C:\Users\danie\Documents\Proyectos\clasesC#\condicionales\obj\Debug\net5.0\condicionales.dll
+C:\Users\danie\Documents\Proyectos\clasesC#\condicionales\obj\Debug\net5.0\ref\condicionales.dll
+C:\Users\danie\Documents\Proyectos\clasesC#\condicionales\obj\Debug\net5.0\condicionales.pdb
+C:\Users\danie\Documents\Proyectos\clasesC#\condicionales\obj\Debug\net5.0\condicionales.genruntimeconfig.cache
