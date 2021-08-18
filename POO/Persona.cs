@@ -78,3 +78,11 @@ namespace POO
 
     }
 }
+
+
+/* 
+Estudiante
+Nombre, Apellido, Edad, Grado, Nota1, Nota2, Nota3.
+Calcular el promedio. Mostrar la alerta de aprobado si el promedio es de 3.5 o superior, de lo contrario reprobado
+Mostrar información del estudiante (Nombre, Apellido, Edad, Grado).
+ */

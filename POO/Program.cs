@@ -6,7 +6,7 @@ namespace POO
     {
         static void Main(string[] args)
         {
-            Persona persona1 = new Persona();
+            /* Persona persona1 = new Persona();
             persona1.Nombre = "Pepe";
             persona1.Apellido = "Perez";
             persona1.Edad = 30;
@@ -34,9 +34,42 @@ namespace POO
 
             Persona persona3 = new Persona("Daniel", "Benavides", 30, 1.70, 65, 0);
             persona3.infoPersona();
-            persona3.alertaIMC(persona3.indiceMasaC());
+            persona3.alertaIMC(persona3.indiceMasaC()); */
+
+            Hamburguesa h1 = new Hamburguesa();
 
             
+            System.Console.WriteLine("Carne");
+            bool carne = bool.Parse(Console.ReadLine());
+            System.Console.WriteLine("Lechuga");
+            bool lechuga = bool.Parse(Console.ReadLine());
+            System.Console.WriteLine("Pepino");
+            bool pepino = bool.Parse(Console.ReadLine());
+            System.Console.WriteLine("Queso");
+            bool queso = bool.Parse(Console.ReadLine());
+            System.Console.WriteLine("Salsa de Tomate");
+            bool salsaTomate = bool.Parse(Console.ReadLine());
+            System.Console.WriteLine("Salsa Mostaza");
+            bool salsaMostaza = bool.Parse(Console.ReadLine());
+
+            
+            h1.Carne = carne;
+            h1.Lechuga = lechuga; 
+            h1.Pepinos = pepino;
+            h1.Queso = queso;
+            h1.SalsaTomate = salsaTomate;
+            h1.SalsaMostaza = salsaMostaza;
+
+            //h1.pedido();
+
+            Hamburguesa h2 = new Hamburguesa(carne, lechuga, pepino, queso, salsaTomate, salsaMostaza);
+
+            h2.pedido();
+
+            Hamburguesa.descuento(15000, 5);
+
+            Hamburguesa.saludo();
+
         }
     }
 }
