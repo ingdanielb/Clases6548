@@ -23,5 +23,9 @@ namespace Herencia
             System.Console.WriteLine("Cantidad de patas = " + CantidadPatas );
             System.Console.WriteLine("Color = " + Color );            
         }
+
+        public virtual void suscripcionVeterinaria(bool suscripcion){
+                System.Console.WriteLine("** Estado de la suscripcion **");        
+        }
     }
 }
