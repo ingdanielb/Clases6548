@@ -7,7 +7,7 @@ namespace listas
     {
         static void Main(string[] args)
         {
-            //Agregar elementos
+            /* //Agregar elementos
             List<string> nombres = new List<string>();
             nombres.Add("Sofia");
             nombres.Add("Felipe");
@@ -35,7 +35,29 @@ namespace listas
             }
 
             Console.WriteLine(nombres.IndexOf("Esteban")); //Consultamos el indice de un elemento
-            Console.WriteLine(nombres.Contains("Sofia"));
+            Console.WriteLine(nombres.Contains("Sofia")); */
+
+            int opcion = 0;
+            while (opcion != 3)
+            {
+                System.Console.WriteLine("Menu \n1. Perro \n2. Gato \n3. Salir");
+                opcion = int.Parse(Console.ReadLine());
+                switch (opcion)
+                {
+                    case 1:
+                        Perro.menu();
+                        break;
+                    case 2:
+                        //Gato.menu();
+                        break;
+                    case 3:
+                        System.Console.WriteLine("Salir");
+                        break;
+                    default:
+                        System.Console.WriteLine("Ingresa una opcion valida");
+                        break;
+                }
+            }
 
         }
     }
