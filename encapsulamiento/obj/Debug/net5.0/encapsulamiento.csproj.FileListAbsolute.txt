@@ -1,0 +1,16 @@
+C:\Users\danie\Desktop\Clases6548\encapsulamiento\bin\Debug\net5.0\encapsulamiento.exe
+C:\Users\danie\Desktop\Clases6548\encapsulamiento\bin\Debug\net5.0\encapsulamiento.deps.json
+C:\Users\danie\Desktop\Clases6548\encapsulamiento\bin\Debug\net5.0\encapsulamiento.runtimeconfig.json
+C:\Users\danie\Desktop\Clases6548\encapsulamiento\bin\Debug\net5.0\encapsulamiento.runtimeconfig.dev.json
+C:\Users\danie\Desktop\Clases6548\encapsulamiento\bin\Debug\net5.0\encapsulamiento.dll
+C:\Users\danie\Desktop\Clases6548\encapsulamiento\bin\Debug\net5.0\ref\encapsulamiento.dll
+C:\Users\danie\Desktop\Clases6548\encapsulamiento\bin\Debug\net5.0\encapsulamiento.pdb
+C:\Users\danie\Desktop\Clases6548\encapsulamiento\obj\Debug\net5.0\encapsulamiento.csproj.AssemblyReference.cache
+C:\Users\danie\Desktop\Clases6548\encapsulamiento\obj\Debug\net5.0\encapsulamiento.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danie\Desktop\Clases6548\encapsulamiento\obj\Debug\net5.0\encapsulamiento.AssemblyInfoInputs.cache
+C:\Users\danie\Desktop\Clases6548\encapsulamiento\obj\Debug\net5.0\encapsulamiento.AssemblyInfo.cs
+C:\Users\danie\Desktop\Clases6548\encapsulamiento\obj\Debug\net5.0\encapsulamiento.csproj.CoreCompileInputs.cache
+C:\Users\danie\Desktop\Clases6548\encapsulamiento\obj\Debug\net5.0\encapsulamiento.dll
+C:\Users\danie\Desktop\Clases6548\encapsulamiento\obj\Debug\net5.0\ref\encapsulamiento.dll
+C:\Users\danie\Desktop\Clases6548\encapsulamiento\obj\Debug\net5.0\encapsulamiento.pdb
+C:\Users\danie\Desktop\Clases6548\encapsulamiento\obj\Debug\net5.0\encapsulamiento.genruntimeconfig.cache
