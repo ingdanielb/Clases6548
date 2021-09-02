@@ -52,8 +52,18 @@ namespace linq
             var promedio2 = perros.Average(p => p.Edad);
 
             var grupo = (from p in perros group p by p.Raza);
-            
-            //System.Console.WriteLine(promedio);
+
+            var minEdad = (from e in perros select e.Edad).Min();
+            var minEdad2 = perros.Min(e => e.Edad);
+
+            var maxEdad = (from e in perros select e.Edad).Max();
+            var maxEdad2 = perros.Max(e => e.Edad);
+
+            var sumaEdades = (from e in perros select e.Edad).Sum();
+            var sumaEdades2 = perros.Sum(e => e.Edad);
+
+
+            System.Console.WriteLine(sumaEdades);
  
 
             foreach (var item in grupo)
