@@ -63,7 +63,7 @@ namespace linq
             var sumaEdades2 = perros.Sum(e => e.Edad);
 
 
-            System.Console.WriteLine(sumaEdades);
+            System.Console.WriteLine(maxEdad);
  
 
             foreach (var item in grupo)
@@ -76,7 +76,12 @@ namespace linq
             }
 
 
-
+            //Crear una clase llamada Docente con los siguientes atributos: 
+            //Nombre, Apellidos, Curso, Salario, Edad.
+            //Mostrar toda la información del Docente
+            //Mostrar el menor Salario
+            //Mostrar la edad con mayor valor
+            //Agrupar los docentes por cursos
 
 
 
