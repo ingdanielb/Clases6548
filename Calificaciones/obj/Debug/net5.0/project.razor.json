@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\danie\\Desktop\\Calificaciones\\Calificaciones.csproj",
+  "FilePath": "c:\\Users\\danie\\Desktop\\Clases6548\\Calificaciones\\Calificaciones.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15619,48 +15619,58 @@
   "RootNamespace": "Calificaciones",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\danie\\Desktop\\Calificaciones\\Views\\Shared\\_LoginPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_LoginPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\danie\\Desktop\\Calificaciones\\Views\\_ViewStart.cshtml",
+      "FilePath": "c:\\Users\\danie\\Desktop\\Clases6548\\Calificaciones\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\danie\\Desktop\\Calificaciones\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
-      "TargetPath": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\danie\\Desktop\\Calificaciones\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\danie\\Desktop\\Calificaciones\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\danie\\Desktop\\Calificaciones\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\danie\\Desktop\\Calificaciones\\Views\\Shared\\_Layout.cshtml",
+      "FilePath": "c:\\Users\\danie\\Desktop\\Clases6548\\Calificaciones\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\danie\\Desktop\\Calificaciones\\Views\\Shared\\Error.cshtml",
+      "FilePath": "c:\\Users\\danie\\Desktop\\Clases6548\\Calificaciones\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\danie\\Desktop\\Clases6548\\Calificaciones\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\danie\\Desktop\\Calificaciones\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "c:\\Users\\danie\\Desktop\\Clases6548\\Calificaciones\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\danie\\Desktop\\Clases6548\\Calificaciones\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\danie\\Desktop\\Clases6548\\Calificaciones\\Views\\Estudiantes\\Index.cshtml",
+      "TargetPath": "Views\\Estudiantes\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\danie\\Desktop\\Clases6548\\Calificaciones\\Views\\Shared\\_LoginPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_LoginPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\danie\\Desktop\\Clases6548\\Calificaciones\\Views\\Estudiantes\\Create.cshtml",
+      "TargetPath": "Views\\Estudiantes\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\danie\\Desktop\\Clases6548\\Calificaciones\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\danie\\Desktop\\Clases6548\\Calificaciones\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     }
   ],

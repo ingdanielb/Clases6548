@@ -39,8 +39,7 @@ namespace Calificaciones.Models
         public string Direccion { get; set; }
 
         [Required(ErrorMessage = "El campo Teléfono es requerido")]
-        [Display(Name = "Teléfono")]
-        [Phone]
+        [Display(Name = "Teléfono")]        
         public int Telefono { get; set; }
 
         [Required(ErrorMessage = "El campo Estado es requerido")]
