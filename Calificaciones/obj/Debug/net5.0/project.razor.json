@@ -15644,8 +15644,28 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\danie\\Desktop\\Clases6548\\Calificaciones\\Views\\Cursos\\Delete.cshtml",
+      "TargetPath": "Views\\Cursos\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\danie\\Desktop\\Clases6548\\Calificaciones\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\danie\\Desktop\\Clases6548\\Calificaciones\\Views\\Calificaciones\\Edit.cshtml",
+      "TargetPath": "Views\\Calificaciones\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\danie\\Desktop\\Clases6548\\Calificaciones\\Views\\Cursos\\Edit.cshtml",
+      "TargetPath": "Views\\Cursos\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\danie\\Desktop\\Clases6548\\Calificaciones\\Views\\Calificaciones\\Create.cshtml",
+      "TargetPath": "Views\\Calificaciones\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15659,6 +15679,21 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\danie\\Desktop\\Clases6548\\Calificaciones\\Views\\Estudiantes\\Details.cshtml",
+      "TargetPath": "Views\\Estudiantes\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\danie\\Desktop\\Clases6548\\Calificaciones\\Views\\Estudiantes\\Edit.cshtml",
+      "TargetPath": "Views\\Estudiantes\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\danie\\Desktop\\Clases6548\\Calificaciones\\Views\\Cursos\\Index.cshtml",
+      "TargetPath": "Views\\Cursos\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\danie\\Desktop\\Clases6548\\Calificaciones\\Views\\Estudiantes\\Create.cshtml",
       "TargetPath": "Views\\Estudiantes\\Create.cshtml",
       "FileKind": "mvc"
@@ -15669,8 +15704,38 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\danie\\Desktop\\Clases6548\\Calificaciones\\Views\\Cursos\\Create.cshtml",
+      "TargetPath": "Views\\Cursos\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\danie\\Desktop\\Clases6548\\Calificaciones\\Views\\Estudiantes\\Delete.cshtml",
+      "TargetPath": "Views\\Estudiantes\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\danie\\Desktop\\Clases6548\\Calificaciones\\Views\\Calificaciones\\Details.cshtml",
+      "TargetPath": "Views\\Calificaciones\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\danie\\Desktop\\Clases6548\\Calificaciones\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\danie\\Desktop\\Clases6548\\Calificaciones\\Views\\Cursos\\Details.cshtml",
+      "TargetPath": "Views\\Cursos\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\danie\\Desktop\\Clases6548\\Calificaciones\\Views\\Calificaciones\\Delete.cshtml",
+      "TargetPath": "Views\\Calificaciones\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\danie\\Desktop\\Clases6548\\Calificaciones\\Views\\Calificaciones\\Index.cshtml",
+      "TargetPath": "Views\\Calificaciones\\Index.cshtml",
       "FileKind": "mvc"
     }
   ],
