@@ -22,7 +22,8 @@ namespace Calificaciones.Controllers
         // GET: Calificaciones
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Calificacion.ToListAsync());
+            var applicationDbContext = _context.Calificacion.Include(c => c.Curso).Include(c => c.Estudiante);
+            return View(await applicationDbContext.ToListAsync());
         }
 
         // GET: Calificaciones/Details/5
@@ -34,6 +35,8 @@ namespace Calificaciones.Controllers
             }
 
             var calificacion = await _context.Calificacion
+                .Include(c => c.Curso)
+                .Include(c => c.Estudiante)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (calificacion == null)
             {
@@ -46,6 +49,8 @@ namespace Calificaciones.Controllers
         // GET: Calificaciones/Create
         public IActionResult Create()
         {
+            ViewData["CursoId"] = new SelectList(_context.Curso, "Id", "NombreCurso");
+            ViewData["EstudianteId"] = new SelectList(_context.Estudiante, "Id", "Apellidos");
             return View();
         }
 
@@ -54,7 +59,7 @@ namespace Calificaciones.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Nota1,Nota2,Nota3")] Calificacion calificacion)
+        public async Task<IActionResult> Create([Bind("Id,EstudianteId,CursoId,Nota1,Nota2,Nota3")] Calificacion calificacion)
         {
             if (ModelState.IsValid)
             {
@@ -62,6 +67,8 @@ namespace Calificaciones.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["CursoId"] = new SelectList(_context.Curso, "Id", "NombreCurso", calificacion.CursoId);
+            ViewData["EstudianteId"] = new SelectList(_context.Estudiante, "Id", "Apellidos", calificacion.EstudianteId);
             return View(calificacion);
         }
 
@@ -78,6 +85,8 @@ namespace Calificaciones.Controllers
             {
                 return NotFound();
             }
+            ViewData["CursoId"] = new SelectList(_context.Curso, "Id", "NombreCurso", calificacion.CursoId);
+            ViewData["EstudianteId"] = new SelectList(_context.Estudiante, "Id", "Apellidos", calificacion.EstudianteId);
             return View(calificacion);
         }
 
@@ -86,7 +95,7 @@ namespace Calificaciones.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Nota1,Nota2,Nota3")] Calificacion calificacion)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,EstudianteId,CursoId,Nota1,Nota2,Nota3")] Calificacion calificacion)
         {
             if (id != calificacion.Id)
             {
@@ -113,6 +122,8 @@ namespace Calificaciones.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["CursoId"] = new SelectList(_context.Curso, "Id", "NombreCurso", calificacion.CursoId);
+            ViewData["EstudianteId"] = new SelectList(_context.Estudiante, "Id", "Apellidos", calificacion.EstudianteId);
             return View(calificacion);
         }
 
@@ -125,6 +136,8 @@ namespace Calificaciones.Controllers
             }
 
             var calificacion = await _context.Calificacion
+                .Include(c => c.Curso)
+                .Include(c => c.Estudiante)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (calificacion == null)
             {

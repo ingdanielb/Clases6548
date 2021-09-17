@@ -9,8 +9,8 @@
 <p>
     <a class="btn btn-success" asp-action="Create">Nuevo estudiante</a>
 </p>
-<table class="table table-hover">
-    <thead class="table-dark">
+<table class="table table-hover" id="estudiantes">
+    <thead class="thead-dark">
         <tr>
             <th>
                 @Html.DisplayNameFor(model => model.Nombre)
@@ -57,7 +57,15 @@
             </td>     
             
             <td>
-                @Html.DisplayFor(modelItem => item.Estado)
+                @if (item.Estado == true) 
+                {
+                    <p class="btn btn-outline-success">Activo</p>
+                }
+                else
+                {
+                    <p class="btn btn-outline-danger">Inactivo</p>
+
+                }
             </td>
             <td>
                 <a class="btn btn-info" asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
@@ -68,3 +76,17 @@
 }
     </tbody>
 </table>
+
+@section Scripts{
+    <script>
+        $(document).ready(function () {
+            $("#estudiantes").DataTable();
+        });
+
+        $('#estudiantes').DataTable({
+            language: {
+                url: '//cdn.datatables.net/plug-ins/1.11.1/i18n/es_es.json'
+            }
+        });
+    </script>
+}

@@ -9,8 +9,8 @@
 <p>
     <a asp-action="Create">Create New</a>
 </p>
-<table class="table">
-    <thead>
+<table class="table table-hover" id="cursos">
+    <thead class="thead-dark">
         <tr>
             <th>
                 @Html.DisplayNameFor(model => model.NombreCurso)
@@ -39,3 +39,17 @@
 }
     </tbody>
 </table>
+
+@section Scripts{
+    <script>
+        $(document).ready(function () {
+            $("#cursos").DataTable();
+        });
+
+        $('#cursos').DataTable({
+            language: {
+                url: '//cdn.datatables.net/plug-ins/1.11.1/i18n/es_es.json'
+            }
+        });
+    </script>
+}

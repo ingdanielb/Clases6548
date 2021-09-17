@@ -7,10 +7,14 @@ namespace Calificaciones.Models
     {
         [Key]
         public int Id { get; set; }
+        [Display(Name = "Estudiante")]
+        public int EstudianteId { get; set; }
 
         [ForeignKey("EstudianteId")]
         public Estudiante Estudiante { get; set; }
         
+        [Display(Name = "Curso")]
+        public int CursoId { get; set; }
         [ForeignKey("CursoId")]
         public Curso Curso { get; set; }
 
