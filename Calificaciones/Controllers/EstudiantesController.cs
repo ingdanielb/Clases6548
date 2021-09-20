@@ -39,6 +39,7 @@ namespace Calificaciones.Controllers
             {
                 _context.Add(estudiante);
                 await _context.SaveChangesAsync();
+                TempData["mensaje"] = "Registro exitoso";
                 return RedirectToAction(nameof(Index));
             }
             return View(estudiante);

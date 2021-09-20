@@ -6,8 +6,8 @@
 
 <h1 class="text-center text-dark mb-4">Registro de estudiante</h1>
 
-<div class="row">
-    <div class="col-md-4">
+<div class="row d-flex justify-content-center">
+    <div class="col-md-6 card p-4">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
@@ -22,7 +22,10 @@
             </div>
             <div class="form-group">
                 <label asp-for="TipoDocumento" class="control-label"></label>
-                <input asp-for="TipoDocumento" class="form-control" />
+                <select asp-for="TipoDocumento" class="form-control">
+                    <option value="CC">Cédula de Ciudadanía</option>
+                    <option value="TI">Tarjeta de identidad</option>
+                </select>
                 <span asp-validation-for="TipoDocumento" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -50,19 +53,21 @@
                 <input asp-for="Telefono" class="form-control" />
                 <span asp-validation-for="Telefono" class="text-danger"></span>
             </div>
-            <div class="form-group form-check">
-                <label class="form-check-label">
-                    <input class="form-check-input" asp-for="Estado" /> @Html.DisplayNameFor(model => model.Estado)
-                </label>
-            </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <label asp-for="Estado" class="control-label"></label>
+                <select asp-for="Estado" class="form-control">
+                    <option value="true">Activo</option>
+                    <option value="false">Inactivo</option>
+                </select>
+                <span asp-validation-for="Estado" class="text-danger"></span>
+            </div>
+            <div class="form-group text-center mt-4">
+                <input type="submit" value="Crear" class="btn btn-primary" />
+                <a class="btn btn-outline-dark"asp-action="Index">Cancelar</a>
             </div>
         </form>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
+
 
